@@ -330,7 +330,7 @@ body, html {
   display: grid;
   gap: 32px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(220px, 272px));
 }
 
 .projects-list__item {
@@ -343,8 +343,6 @@ body, html {
   height: 100%;
   display: grid;
   grid-template-rows: 1fr 3fr 1fr;
-  min-height: 220px;
-  min-width: 300px;
 }
 
 .project-card__title {
