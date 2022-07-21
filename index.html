@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Odin Dashboard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Odin task">
+  <meta property="og:title" content="Odin dashboard taks">
+  <meta property="og:type" content="website">
+  <!-- <meta property="og:url" content=""> -->
+  <!-- <meta property="og:image" content=""> -->
+  <link rel="stylesheet" href="./static/materialdesignicons.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar --> 
+    <aside class="sidebar">
+      <h1 class="dashboard-title">
+        <span class="mdi mdi-view-dashboard"></span>
+        <span class="dashboard-title__text">Dashboard</span>
+      </h1>
+
+      <!-- Nav --> 
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <span class="mdi mdi-home"></span>
+            <a href="#">Home</a>
+          </li>
+          <li class="nav-list__item">
+            <span class="mdi mdi-card-account-details"></span>
+            <a href="#">Profile</a>
+          </li>
+          <li class="nav-list__item">
+            <span class="mdi mdi-android-messages"></span>
+            <a href="#">Messages</a>
+          </li>
+          <li class="nav-list__item">
+            <span class="mdi mdi-clock-time-three"></span>
+            <a href="#">History</a>
+          </li>
+          <li class="nav-list__item">
+            <span class="mdi mdi-note-multiple"></span>
+            <a href="#">Tasks</a>
+          </li>
+          <li class="nav-list__item">
+            <span class="mdi mdi-account-group"></span>
+            <a href="#">Communities</a>
+          </li>
+        </ul>
+
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <span class="mdi mdi-cog"></span>
+            <a href="#">Settings</a>
+          </li>
+          <li class="nav-list__item">
+            <span class="mdi mdi-help-box"></span>
+            <a href="#">Support</a>
+          </li>
+          <li class="nav-list__item">
+            <span class="mdi mdi-shield-check"></span>
+            <a href="#">Privacy</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+
+    <!-- Header --> 
+    <header class="header">
+      <div class="search-bar">
+        <span class="mdi mdi-magnify"></span>
+        <input class="search-input" type="text" placeholder="Search something">
+      </div>
+      <div class="mini-profile">
+        <a class="notification-link" href="#">
+          <span class="mdi mdi-bell-ring-outline"></span>
+        </a>
+        <a class="avatar-link" href="#">
+        </a>
+        <p class="username">Billy Harrington</p>
+      </div>
+      <div class="greeting">
+        <a class="avatar-link" href="#"></a>
+        <p class="greeting-txt">Hi there,</p>
+        <span class="name-nickname">
+          <p class="username">Billy Harrington</p>
+          <p class="nickname">(@gachiman77)</p>
+        </span>
+      </div>
+      <ul class="nav-header">
+        <li><a class="nav-header__link" href="#">New</a></li>
+        <li><a class="nav-header__link" href="#">Upload</a></li>
+        <li><a class="nav-header__link" href="#">Share</a></li>
+      </ul>
+    </header>
+    <!-- Main --> 
+    <main class="main">
+      <section class="projects">
+        <h2 class="projects-title">Projects</h2>
+        <ul class="projects-list">
+          <li class="projects-list__item">
+            <div class="project-card">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo odio quia necessitatibus maxime, unde autem accusamus. Nisi repellat eos alias illo eveniet, fuga repudiandae placeat omnis illum error. Voluptatum, illum!</p>
+              <ul class="proj-list-actions">
+                <li>
+                  <a href=""><span class="mdi mdi-star-remove-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-eye-plus-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-source-fork"></span></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="projects-list__item">
+            <div class="project-card">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic facilis, explicabo pariatur quis incidunt laudantium dolorem voluptate, doloremque tenetur vitae modi inventore quae excepturi magnam soluta dolorum fuga consequuntur nulla?</p>
+              <ul class="proj-list-actions">
+                <li>
+                  <a href=""><span class="mdi mdi-star-remove-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-eye-plus-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-source-fork"></span></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="projects-list__item">
+            <div class="project-card">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ut possimus aut impedit nisi nesciunt pariatur, fugit rerum molestiae cum, accusantium, quos dolore itaque dolorum assumenda nulla? Reprehenderit, laborum placeat.</p>
+              <ul class="proj-list-actions">
+                <li>
+                  <a href=""><span class="mdi mdi-star-remove-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-eye-plus-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-source-fork"></span></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="projects-list__item">
+            <div class="project-card">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore placeat ad fuga? Exercitationem blanditiis perferendis rem doloremque facere sed veritatis, nostrum ducimus. In est autem nostrum, veritatis laborum nam ipsam!</p>
+              <ul class="proj-list-actions">
+                <li>
+                  <a href=""><span class="mdi mdi-star-remove-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-eye-plus-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-source-fork"></span></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="projects-list__item">
+            <div class="project-card">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque error ea enim laudantium odio explicabo laboriosam? Eius sint voluptas atque illum, labore, odit sit cupiditate sed ipsa dicta unde iste.</p>
+              <ul class="proj-list-actions">
+                <li>
+                  <a href=""><span class="mdi mdi-star-remove-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-eye-plus-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-source-fork"></span></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="projects-list__item">
+            <div class="project-card">
+              <h3 class="project-card__title">Super Cool Project</h3>
+              <p class="project-card__content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus accusantium id cupiditate consequuntur consequatur commodi vero corporis deleniti. Modi dolorum tenetur, quia amet deserunt illum maxime adipisci vitae earum dignissimos!</p>
+              <ul class="proj-list-actions">
+                <li>
+                  <a href=""><span class="mdi mdi-star-remove-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-eye-plus-outline"></span></a>
+                </li>
+                <li>
+                  <a href=""><span class="mdi mdi-source-fork"></span></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="announcements">
+        <h3 class="announcements-title">Announcements</h3>
+        <ul class="announcements-list">
+          <li class="announcements-list__item">
+            <div class="announcements-card">
+              <h3>Site Maintenance</h3>
+              <p class="announcements-card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vel dignissimos commodi.</p>
+            </div>
+          </li>
+          <li class="announcements-list__item">
+            <div class="announcements-card">
+              <h3>Community Share Day</h3>
+              <p class="announcements-card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quod porro harum quidem?</p>
+            </div>
+          </li>
+          <li class="announcements-list__item">
+            <div class="announcements-card">
+              <h3>Updated Privacy Policy</h3>
+              <p class="announcements-card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia maxime maiores facere.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="trending">
+        <h3 class="trending-title">Trending</h3>
+        <ul class="trending-list">
+          <li class="trending-list__item">
+            <a href="#" class="avatar-link"></a>
+            <p class="nickname">@tegan</p>
+            <p class="trending-desc">World Piece Builder</p>
+          </li>
+          <li class="trending-list__item">
+            <a href="#" class="avatar-link"></a>
+            <p class="nickname">@morgan</p>
+            <p class="trending-desc">Super Cool Project</p>
+          </li>
+          <li class="trending-list__item">
+            <a href="#" class="avatar-link"></a>
+            <p class="nickname">@kendall</p>
+            <p class="trending-desc">Life Chaning App</p>
+          </li>
+          <li class="trending-list__item">
+            <a href="#" class="avatar-link"></a>
+            <p class="nickname">@alex</p>
+            <p class="trending-desc">No Traffic Marker</p>
+          </li>
+        </ul>
+      </sections>
+    </main>
+
+  </div>
+</body>
+</html>
