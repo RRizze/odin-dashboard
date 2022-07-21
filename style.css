@@ -163,7 +163,7 @@ body, html {
   grid-row: 1;
   grid-column: 2;
   column-gap: 18px;
-  padding: 8px min(26px, 100%);
+  padding: 16px min(26px, 100%);
 }
 
 .header .mdi {
@@ -234,14 +234,18 @@ body, html {
 /* nav header */
 .nav-header {
   display: grid;
+  width: 100%;
   grid-column: 2;
   grid-row: 2;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 12px;
+  justify-content: end;
   align-items: center;
 }
 
 .nav-header__link {
+  width: 100%;
   text-decoration: none;
   padding: 12px 24px;
   border: 0;
@@ -364,10 +368,10 @@ body, html {
 
 .proj-list-actions {
   display: grid;
-  grid-template-columns: repeat(3, 50px);
-  justify-items: center;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 14px;
   justify-content: end;
-  align-items: center;
 }
 
 .proj-list-actions li {
